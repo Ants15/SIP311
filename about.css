@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(42, 42, 51);
+  }
+  header{
+    background-color: rgb(42, 42, 51);
+    color: rgb(124, 41, 41);
+    padding: .1px;
+    text-align: left;
+    font-style: normal;
+    border-style: inset; color: rgb(109, 8, 8); 
+    position: unset;
+    width: 97%;
+    border-radius: .5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+  }   
+  footer{
+    color: azure;
+    margin-left: 10px;
+  }  
+  #profile{
+     width: 25%;
+     height: 25%;
+     border-radius: 50%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }  
+   #MDlogo{
+    justify-content: left;
+    width: 15%;
+    height: 15%;
+    display: block;
+    padding: 1% 1% 1% 1%;
+   }
+   #Vehicle{
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin-top: 100px;
+   }
+   #About, #HOME, #portfolio, #testimonial, #contact, #faq, #future, #SIP, #objectives{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1% 1% 1% 1%;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+   }
+   #About:hover, #HOME:hover, #portfolio:hover, #testimonial:hover, #contact:hover, #faq:hover, #future:hover, #SIP:hover, #objectives:hover{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 19px;
+    padding: .5% .5% .5% .5%;
+   }
+   h1{
+    font-size: 72px;
+    font-family: fantasy;
+    color: rgb(141, 8, 8);
+    padding-left: 20px; 
+   }
+   h2{
+    color: azure;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: underline; 
+    text-decoration-style: solid;
+    text-decoration-color: darkred;
+    padding: 2px 2px 2px 2px;
+   }
+   #text{
+    color: azure;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-style: ridge;
+    border-bottom-color: darkred;
+    border-top-color: darkred;
+    border-left-color: oldlace;
+    border-right-color: oldlace;
+   }
+   #conin{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-left: 45%;
+   }
+   #conin:hover{
+    font-size: 40px;
+    background-color: goldenrod;
+    color: azure;
+    border-radius: 50px;
+    padding: 20px 20px 20px 20px;
+   }
+  #FB,#LIN,#X,#Insta{
+    width: 2%;
+    height: 4%;
+    border-radius: 50%;
+  }
+  #FB:hover,#LIN:hover,#X:hover,#Insta:hover{
+  border-color: darkred;
+  border-style: solid;
+  }
+  #Abou:hover, #HOM:hover, #portfoli:hover, #testimonia:hover, #contac:hover, #fa:hover, #futur:hover, #SI:hover, #objective:hover{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 19px;
+    padding: .5% .5% .5% .5%;
+    border-color: darkred;
+  border-style: solid;
+   }
+   #Abou, #HOM, #portfoli, #testimonia, #contac, #fa, #futur, #SI, #objective{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1% 1% 1% 1%;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+   }
+   h4{
+    margin-left: 500px;
+   }
