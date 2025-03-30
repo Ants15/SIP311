@@ -1,0 +1,161 @@
+body{
+  background-color: rgb(42, 42, 51);
+}
+header{
+  background-color: rgb(42, 42, 51);
+  color: rgb(124, 41, 41);
+  padding: .1px;
+  text-align: left;
+  font-style: normal;
+  border-style: inset; color: rgb(109, 8, 8); 
+  position: unset;
+  width: 76%;
+  border-radius: .5em;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}   
+footer{
+  color: azure;
+  margin-left: 10px;
+}  
+aside{
+    /* set the section to be fixed */
+    position: fixed;
+    /* anchor the aside in the top, right corner */
+    right: 0;
+    top: 0;
+    /* make the aside full height */
+    height: 100%;
+    /* set the width to fill in the remaining 25% */
+    width: 20%;
+    /* add padding to the top to avoid overlapping the header */
+    padding-top: 50px;
+    /*add some padding so the text is not right up against the edge */
+    background-color: rgb(94, 7, 7);
+    /* set the text color */
+    display: inline;
+    border-style: solid; 
+    border-color: rgb(72, 73, 73);
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+  
+}
+#wireframe{
+  width: 80%;
+}  
+#profile{
+   width: 45%;
+   height: 25%;
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }  
+ #MDlogo{
+  justify-content: left;
+  width: 15%;
+  height: 15%;
+  display: block;
+  padding: 1% 1% 1% 1%;
+ }
+ #Vehicle{
+  display: block;
+  width: 25%;
+  height: 25%;
+  margin-top: 100px;
+ }
+ #About, #HOME, #portfolio, #testimonial, #contact, #faq, #future, #SIP, #objectives{
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1% 1% 1% 1%;
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+ }
+ #About:hover, #HOME:hover, #portfolio:hover, #testimonial:hover, #contact:hover, #faq:hover, #future:hover, #SIP:hover, #objectives:hover{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border-radius: 19px;
+  padding: .5% .5% .5% .5%;
+ } 
+ #about{
+  font-size: large;
+  font-style: normal;
+text-decoration: none;
+color: goldenrod;
+ }
+ #about:hover{
+  background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 2% 2% 2% 2%;
+ }
+ #FB,#LIN,#X,#Insta{
+  width: 2%;
+  height: 4%;
+  border-radius: 50%;
+}
+#FB:hover,#LIN:hover,#X:hover,#Insta:hover{
+border-color: darkred;
+border-style: solid;
+}
+#textuno{
+font-size: 35px;
+text-align: center;
+font-weight: bold;
+color: azure;
+}
+#Abou:hover, #HOM:hover, #portfoli:hover, #testimonia:hover, #contac:hover, #fa:hover, #futur:hover, #SI:hover, #objective:hover{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border-radius: 19px;
+  padding: .5% .5% .5% .5%;
+  border-color: darkred;
+border-style: solid;
+ }
+ #Abou, #HOM, #portfoli, #testimonia, #contac, #fa, #futur, #SI, #objective{
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1% 1% 1% 1%;
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+ }
+ h4{
+  margin-left: 300px;
+ }
+ h2{
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: darkred;
+ }
+ h1{
+  color: azure;
+  font-size: 40px;
+  margin-left: 15px;
+ }
+ #fr{
+  margin-left: 110px;
+  padding-right: 27%;
+  color: azure;
+  font-size: 35px;
+ }
+ h5{
+  color: azure;
+  padding-left: 40%;
+  font-size: 28px;
+  margin-left: 15px;
+ }
+ #wtf{
+  color: darkred;
+font-size: 72px;
+font-family: fantasy;
+font-weight: bold;
+margin-left: 50px;
+ }
